@@ -1,0 +1,20 @@
+--- #YAML:1.0
+name: Net-Amazon-SimpleQueue
+version: 0.29
+author:
+  - Leon Brocard C<acme@astray.com>
+abstract: Use the Amazon Simple Queue Service
+license: perl
+requires:
+  Class::Accessor::Fast: 0
+  LWP::UserAgent: 0
+  Module::Build: 0
+  Test::Exception: 0.15
+  Test::More: 0.01
+  XML::LibXML: 0
+  XML::LibXML::XPathContext: 0
+provides:
+  Net::Amazon::SimpleQueue:
+    file: lib/Net/Amazon/SimpleQueue.pm
+    version: 0.29
+generated_by: Module::Build version 0.2605
